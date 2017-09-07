@@ -7,4 +7,7 @@
 
     <color name="editTextColorWhite">#FFFFFF</color>
 
+
+    <color name="editTextColorBlack">#000000</color>
+
 </resources>
