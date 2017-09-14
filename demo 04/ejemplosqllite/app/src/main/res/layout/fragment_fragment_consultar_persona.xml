@@ -1,0 +1,88 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_consultar_usuarios"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:orientation="vertical"
+    tools:context="hamp.upao.upaogram.com.ejemplosqllite.fragmentos.FragmentConsultarPersona">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+        <EditText
+            android:id="@+id/documentodni"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:hint="DNI"
+            android:layout_weight="0.93" />
+
+        <Button
+            android:id="@+id/btnConsultar"
+            android:layout_width="118dp"
+            android:layout_height="wrap_content"
+
+            android:text="Buscar"
+            android:theme="@style/RaiseButtonDark"
+            android:onClick="onClick"
+            />
+
+
+
+
+    </LinearLayout>
+
+    <EditText
+        android:id="@+id/campoNombreConsulta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Nombre"/>
+
+    <EditText
+        android:id="@+id/campoTelefonoConsulta"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Telefono"/>
+
+    <LinearLayout
+        android:layout_marginTop="30dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:weightSum="1">
+
+
+
+        <Button
+            android:id="@+id/btnActualizar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Actualizar"
+            android:layout_weight="0.5"
+            android:theme="@style/RaiseButtonDark"
+            android:onClick="onClick"
+            />
+
+        <Button
+            android:id="@+id/btnEliminar"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:text="Eliminar"
+            android:layout_weight="0.5"
+            android:theme="@style/RaiseButtonDark"
+            android:onClick="onClick"
+            />
+
+    </LinearLayout>
+
+
+
+</LinearLayout>
