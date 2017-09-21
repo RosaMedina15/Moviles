@@ -1,0 +1,7 @@
+<resources>
+
+    <string name="app_name">MERCADO ROMA</string>
+    <string name="product_name">Nombre</string>
+    <string name="enter_name">Ingrese nombre</string>
+    <string name="enter_quantity">Ingrese cantidad</string>
+</resources>
